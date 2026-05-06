@@ -451,3 +451,20 @@ footer .footer-emoji {
   90%  { opacity: 0.18; }
   100% { transform: translateY(-110vh) scale(1.1); opacity: 0; }
 }
+
+/* ── 参加登録ボタン（特別目立たせる） ── */
+.link-box .entry-btn {
+  background: var(--coral);
+  border: 2px dashed #f0956e;
+  color: var(--text-dark);
+  padding: 16px 36px;
+  font-size: 1.25rem;
+  box-shadow: 0 6px 15px rgba(247, 197, 176, 0.4);
+}
+
+.link-box .entry-btn:hover {
+  background: #f0956e;
+  color: var(--white);
+  border-style: solid;
+  box-shadow: 0 8px 20px rgba(247, 197, 176, 0.6);
+}
